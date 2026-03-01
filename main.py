@@ -145,4 +145,49 @@
 # print(portfolio[1:3])
 #
 
-1
+#list methods
+#append
+my_list = [1,2,3,4]
+my_list.append(5) #add 5 to the end
+print(my_list)
+
+#insert
+my_list.insert(5, 'Bash')
+print(my_list)
+
+#extend
+second_list = ['Terminal', 'Powershell']
+my_list.extend(second_list)# join 2 lists in 1
+print(my_list)
+
+#remove
+price_list = [150,150.3,150,168]
+price_list.remove(150) #while we use remove(x) it removes the first x, but  not all
+print(price_list)
+
+#pop
+word_list = ['First Word', 'Second Word', 'Third Word']
+word_list.pop(0) #using pop we remove the element by index, if we dont write index, it pop the last el
+print(word_list)
+
+#clear
+word_list.clear() #it fully clear all elements
+print(word_list)
+
+#index
+votes = ["yes", "no", "yes", "no", "abstain"]
+no_index = votes.index('no') #it return the first finded index
+print(no_index)
+
+#count
+yes_count = votes.count('yes') #it counts the elements
+print(yes_count)
+
+#sort
+unsorted_list = ['BingOS', 'Android', 'Google', 'Ios']
+unsorted_list.sort()
+print(unsorted_list)
+
+#reverse
+unsorted_list.reverse()
+print(unsorted_list)
