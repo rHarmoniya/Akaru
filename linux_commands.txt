@@ -1,0 +1,68 @@
+alias -> Ստեղծել հրամանի հոմանիշ կամ ավելի կարճ տարբերակ։ example. alias c="clear"
+
+apropos -> գտնում է պետքական գործիքը։ example. apropos zip
+
+apt/apt-get/aptitude -> Որոնել և տեղադրել ծրագրային փաթեթներ (հիմնականում Debian/Ubuntu համակարգերի համար)։ example sudo apt install telegram-desktop
+
+aspell -> ստուգում է ուղղագրությունը ֆայլի մեջ։ example. aspell check readme.txt, ունի տարբեր ռեժիմներ՝ none, url, email, sgml, tex, texinfo, nroff
+
+at -> Պլանավորել հրաման, որպեսզի այն կատարվի մեկ անգամ՝ նշված կոնկրետ ժամանակին։ example. touch test_file.txt | at now + 1minute
+
+awk -> Գտնել և փոխարինել տեքստ, ինչպես նաև տվյալների բազաների տեսակավորում, վավերացում և ինդեքսավորում։ example. 
+
+basename -> Հեռացնել գրացուցակի ամբողջական ուղին և վերջածանցը (suffix) ֆայլի անունից։
+
+base32/64 -> Կոդավորել կամ ապակոդավորել տվյալները Base32 կամ Base64 ձևաչափով և արտածել ստանդարտ ելքում։ example. file.txt > decoded.txt
+
+bc -> Կամայական ճշտությամբ մաթեմատիկական հաշվիչի լեզու։ example. echo "1500 / 2" | bc
+
+bg -> հրամանը կվերցնի վերջին կանգնեցված պրոցեսը և կստիպի նրան շարունակել իր աշխատանքը ֆոնային ռեժիմում։ Դուք կկարողանաք շարունակել օգտագործել տերմինալը այլ գործերի համար, մինչ համակարգիչը հետին պլանում կավարտի արխիվացումը։
+
+cat -> արտածում է ֆայլի պարունակությունը տերմինալում։ example. cat file.txt
+
+curl -> արտածում է կայքի html կառուցվածքը տերմինալում։ example. curl https://www.starbucks.com/
+
+date -> Ցուցադրել կամ փոփոխել համակարգի ամսաթիվը և ժամը։ example. date "+%Y-%m-%d %H:%M:%S" or TZ='Asia/Tokyo' date "+%H:%M"
+
+dir -> Հակիրճ ցուցադրել գրացուցակի պարունակությունը (նման է ls-ին)։
+
+dpkg -> Փաթեթների կառավարիչ (Package manager) Debian հիմքով համակարգերի համար։ Օգտագոեծվում է deb ֆայլերը բացելու համար։ example. sudo dpkg -i app_v2.0_amd64.deb
+
+echo -> Արտածել տեքստ կամ հաղորդագրություն էկրանին։ example. echo -e "\e[31mՍա կարմիր տեքստ է\e[0m"
+
+Black 	0;30 	'\033[0;30m'
+Dark Gray 	1;30 	'\033[1;30m'
+Red 	0;31 	'\033[0;31m'
+Light Red 	1;31 	'\033[1;31m'
+Green 	0;32 	'\033[0;32m'
+Light Green 	1;32 	'\033[1;32m'
+Brown/Orange 	0;33 	'\033[0;33m'
+Yellow 	1;33 	'\033[1;33m'
+Blue 	0;34 	'\033[0;34m'
+Light Blue 	1;34 	'\033[1;34m'
+Purple 	0;35 	'\033[0;35m'
+Light Purple 	1;35 	'\033[1;35m'
+Cyan 	0;36 	'\033[0;36m'
+Light Cyan 	1;36 	'\033[1;36m'
+Light Gray 	0;37 	'\033[0;37m'
+White 	1;37 	'\033[1;37m'
+Reset 	0 	'\033[0m'
+Clear the screen 	2J 	'\033[2J'
+
+fold -> Ծալել (wrap) տեքստի տողերը՝ նշված լայնությանը համապատասխանեցնելու համար։ example. fold -w 50 file.txt
+
+gzip -> Սեղմել (արխիվացնել) կամ ապասեղմել նշված ֆայլերը։ gzip file.txt կդառնա file.txt.gz example2. gzip -d file.txt.gz կդառնա file.txt
+
+htop -> Պրոցեսների ինտերակտիվ դիտարկիչ (ավելի հարմարավետ այլընտրանք top հրամանին)։
+
+lsof -> Ցուցադրել համակարգում ներկայումս բացված ֆայլերի ցանկը (List open files)։
+
+mkdir -> Ստեղծել նոր պապկա/պանակներ (Make Directory)։ mkdir folder_name
+
+mv -> Տեղափոխել կամ վերանվանել ֆայլեր կամ պապկա։ example. mv 13070394.jpg /projects
+
+rm -> Հեռացնել (ջնջել) ֆայլեր (Remove)։ example. rm file.txt
+
+rmdir -> Հեռացնել դատարկ պապկա (Remove Directory)։ 
+
+touch -> Փոփոխել ֆայլի ժամանակային նիշերը (timestamps) կամ ստեղծել նոր, դատարկ ֆայլ, եթե այն գոյություն չունի։ example. touch file_name
